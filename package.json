@@ -2,7 +2,7 @@
     "name": "@mateoox600/m-logger",
     "description": "Logger lib",
     "authors": "Mateoox600",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./build/index.js",
     "scripts": {
         "build": "tsc",
@@ -22,6 +22,6 @@
         "url": "https://github.com/mateoox600/MLogger.git"
     },
     "dependencies": {
-        "@mateoox600/m-color": "^0.0.4"
+        "@mateoox600/m-color": "^0.0.5"
     }
 }
