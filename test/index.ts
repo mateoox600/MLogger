@@ -2,8 +2,9 @@ import { HtmlColors } from '@mateoox600/m-color';
 import { Logger } from '../src';
 
 const logger = new Logger({
-    info: [],
-    warn: HtmlColors.Yellow.asFore()
+    info: { },
+    warn: { colors: HtmlColors.Yellow.asFore(), prefix: '[WARN] ' },
+    error: { colors: HtmlColors.Red.asBack(), prefix: '[ERROR] ', suffix: ' !!!' }
 });
 
 logger.on('warn', (str) => {
@@ -12,3 +13,4 @@ logger.on('warn', (str) => {
 
 logger.log('info', 'This is an info with 0 coloring');
 logger.log('warn', 'This is a yellow warn');
+logger.log('error', 'This failed');

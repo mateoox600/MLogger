@@ -2,7 +2,7 @@
     "name": "@mateoox600/m-logger",
     "description": "Logger lib",
     "authors": "Mateoox600",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "./build/index.js",
     "scripts": {
         "build": "tsc",
